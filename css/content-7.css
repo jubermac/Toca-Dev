@@ -1,0 +1,57 @@
+.content-7 {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+.questions {
+    width: 35%;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.c7-text {
+    color: white;
+}
+
+.contact {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact button {
+    margin: 15px;
+    border: 60px;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: 60;
+    width: 100%;
+    padding: 15px 100px;
+    border: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    align-self: center;
+}
+.contact button:hover {
+    background-color: rgb(35, 25, 25);
+}
+.social-links {
+    margin: 10px 0px;
+}
+
+.hidden {
+    display: none;
+}

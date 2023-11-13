@@ -1,0 +1,58 @@
+.menu {
+    font-family:'Courier New', Courier;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 20px 0px;
+}
+
+.menu-top .social {
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+}
+
+.menu-bottom {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 0;
+}
+
+.input-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 18%;
+    justify-content: center;
+}
+
+.input-box input {
+    height: 15px;
+    padding: 8px;
+    border: 1px solid #ababab;
+    border-radius: 8px;
+}
+
+.link-box a {
+    color: #ababab;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 8px;
+}
+
+.link-box a:hover {
+    border-bottom: 3px solid black;
+}
+

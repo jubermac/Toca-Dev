@@ -1,0 +1,79 @@
+.content-5 {
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-5 h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.c5-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c5-cards .card {
+    background-color: gainsboro;
+    width: 28%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.c5-cards .card .card-header {
+    display: flex;
+}
+
+.c5-cards .card .card-header .description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.c5-cards .card .card-header .description p {
+    margin: 0px;
+}
+
+.c5-cards .card .card-body p {
+    padding: 0px;
+}
+
+.c5-name {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.c5-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.c5-text {
+    font-size: 20px;
+    padding: 0 15px;
+    color: white;
+}
+.c5-botao {
+    margin: 15px;
+    background-color: black;
+    border: 60px;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; 
+    align-self: center;
+}
+
+.c5-botao:hover {
+    background-color: grey;
+}

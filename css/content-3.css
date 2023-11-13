@@ -1,0 +1,66 @@
+.content-3 h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.c3-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.c3-title {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.c3-text {
+   font-size: 20px;
+   padding: 0 15px; 
+   color: white;
+}
+
+.c3-card1 {
+    background-color: black;
+    margin: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+}
+
+.c3-card1:hover {
+    background-color: #121212;
+}
+
+.c3-card2 {
+    background-color: black;
+    margin: 30px;
+    margin-left: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+}
+.c3-card2:hover {
+    background-color: #121212;
+}
+
+
+.c3-button {
+    margin: 15px;
+    border-top: 15px;
+    background-color: grey;
+    border: 60px;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; 
+}
+
+.c3-button:hover{
+    background-color: rgb(157, 155, 155);
+}
